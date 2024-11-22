@@ -59,6 +59,8 @@ Ein Big-LLM stellen wir über folgenden Host zur Verfügung: `185.128.117.91`.
 | Model              | Parameters | Size  | model (for API request)                  |
 | ------------------ | ---------- | ----- | -------------------------------- |
 | Llama 3.1          | 70B         | ... | llama3.1:70b     |
+| Llama 3.2 Vision   | 90B         | ... | llama3.2-vision:90b     |
+
 
 Die OpenAI API Keys werden zu Beginn des Hackathons mitgeteilt. 
 

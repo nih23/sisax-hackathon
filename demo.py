@@ -6,7 +6,7 @@ import aisisax.llm.ollama_connector as aisax_ollama
 pImage = "assets/car.jpeg"
 
 # Object detection
-#res = aisax_object_detection.call_lsa(pImage, "car")
+res = aisax_object_detection.call_lsa(pImage, "car")
 
 # Interaktion mit LLMs
 ## OpenAI

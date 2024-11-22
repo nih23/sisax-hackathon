@@ -65,8 +65,7 @@ def generate_multimodal_answer(query, image_path, model="llama3.2", messages=Non
 
     # ChatOllama mit benutzerdefiniertem Host und Port initialisieren
     chat = ChatOllama(
-        host=ollama_host,
-        port=int(ollama_port),  # Port muss eine Zahl sein
+        base_url=f"{ollama_host}:{ollama_port}",
         model=model,  # Beispielmodell
         temperature=0.9
     )
