@@ -6,8 +6,9 @@ import aisisax.llm.ollama_connector as aisax_ollama
 pImage = "assets/car.jpeg"
 
 # Object detection
-res = aisax_object_detection.call_lsa(pImage, "car")
-
+res = aisax_object_detection.call_lsa(pImage, "yellow car")
+print(f"Object Detection BBOX: {res}")
+exit(0)
 # Interaktion mit LLMs
 ## OpenAI
 result = aisax_openai.generate_answer("Warum ist der Himmel blau?")

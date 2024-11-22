@@ -1,5 +1,6 @@
 import requests
 import base64
+import numpy as np
 from PIL import Image
 from io import BytesIO
 from dotenv import load_dotenv
@@ -27,8 +28,9 @@ def call_lsa(image_path, text_prompt, sam_type = "sam2.1_hiera_small", box_thres
 
                 # Handle the response
                 if response.status_code == 200:
-                     output_image = Image.open(BytesIO(response.content)).convert("RGB")
+                     #output_image = Image.open(BytesIO(response.content)).convert("RGB")
+                     boxes = np.load(BytesIO(response.content))
                 else:
                      print(f"Error: {response.status_code} - {response.text}")
 
-    return output_image
+    return boxes
