@@ -1,6 +1,3 @@
-Here’s an extended and detailed version of the `README.md` file with more sections to comprehensively document your project.
-
----
 
 # Skat Game AI: YOLO Detection & GPT Strategy
 
@@ -149,10 +146,10 @@ Interactive interface for:
 ## Screenshots
 
 ### Skat card with YOLO Detection
-![YOLO Detection](Skat-game/Image/Card_OD2.png)
+![YOLO Detection](../Image/Card_OD2.png)
 
 ### AI Strategy Recommendation
-![AI Strategy](Skat-game/Image/skat_game_recommendation.png)
+![AI Strategy](../Image/skat_game_recommendation.png)
 
 ---
 
