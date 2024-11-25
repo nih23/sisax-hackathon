@@ -148,11 +148,11 @@ Interactive interface for:
 
 ## Screenshots
 
-### Gameplay with YOLO Detection
-![YOLO Detection](sisax-hackathon-Skat-trifft-ML/Skat-game/Image/Card_OD2.png)
+### Skat card with YOLO Detection
+![YOLO Detection](Skat-game/Image/Card_OD2.png)
 
 ### AI Strategy Recommendation
-![AI Strategy](sisax-hackathon-Skat-trifft-ML/Skat-game/Image/skat_game_recommendation.png)
+![AI Strategy](Skat-game/Image/skat_game_recommendation.png)
 
 ---
 
